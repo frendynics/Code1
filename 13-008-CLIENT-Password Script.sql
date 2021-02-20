@@ -1,0 +1,10 @@
+===========================
+RUN IN CLIENTS OLD DATABASE. COPY AND PASTE THE UPDATE SCRIPT IN NEW DATABASE
+==============================
+
+SELECT
+    'UPDATE T_AUTH_EMPLOYEE_MASTER SET LOGIN_PWD = F_MANAGE_PASS(''Encrypt'','''||F_MANAGE_PASS('Decrypt',LOGIN_PWD,'SEA.NET.')||''',''SEA.NET.'') WHERE EMPLOYEE_ID = '||EM.EMPLOYEE_ID||';' AS NEW_PWD
+FROM
+    T_AUTH_EMPLOYEE_MASTER em
+where  
+login_name is not null;

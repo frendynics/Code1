@@ -1,0 +1,196 @@
+<?xml version = '1.0'?>
+<DOCUMENT xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="ROWSET">
+         <xsd:complexType>
+            <xsd:sequence>
+               <xsd:element name="ROW" minOccurs="0" maxOccurs="unbounded">
+                  <xsd:complexType>
+                     <xsd:sequence>
+                        <xsd:element name="ZONE_CODE" nillable="true" minOccurs="0">
+                           <xsd:simpleType>
+                              <xsd:restriction base="xsd:string">
+                                 <xsd:maxLength value="3"/>
+                              </xsd:restriction>
+                           </xsd:simpleType>
+                        </xsd:element>
+                        <xsd:element name="ZONE_NAME" nillable="true" minOccurs="0">
+                           <xsd:simpleType>
+                              <xsd:restriction base="xsd:string">
+                                 <xsd:maxLength value="50"/>
+                              </xsd:restriction>
+                           </xsd:simpleType>
+                        </xsd:element>
+                        <xsd:element name="GMT_RELATIVENESS" nillable="true" minOccurs="0">
+                           <xsd:simpleType>
+                              <xsd:restriction base="xsd:string">
+                                 <xsd:maxLength value="30"/>
+                              </xsd:restriction>
+                           </xsd:simpleType>
+                        </xsd:element>
+                     </xsd:sequence>
+                     <xsd:attribute name="num" type="xsd:integer"/>
+                  </xsd:complexType>
+               </xsd:element>
+            </xsd:sequence>
+         </xsd:complexType>
+      </xsd:element>
+   </xsd:schema>
+   <ROWSET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="#/DOCUMENT/xsd:schema[not(@targetNamespace)]">
+      <ROW num="1">
+         <ZONE_CODE>GMT</ZONE_CODE>
+         <ZONE_NAME>Greenwich Mean Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT0</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="2">
+         <ZONE_CODE>UTC</ZONE_CODE>
+         <ZONE_NAME>Universal Coordinated Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT0</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="3">
+         <ZONE_CODE>EET</ZONE_CODE>
+         <ZONE_NAME>Eastern European Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+2:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="4">
+         <ZONE_CODE>ART</ZONE_CODE>
+         <ZONE_NAME>(Arabic) Egypt Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+2:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="5">
+         <ZONE_CODE>EAT</ZONE_CODE>
+         <ZONE_NAME>Eastern African Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+3:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="6">
+         <ZONE_CODE>MET</ZONE_CODE>
+         <ZONE_NAME>Middle East Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+3:30</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="7">
+         <ZONE_CODE>NET</ZONE_CODE>
+         <ZONE_NAME>Near East Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+4:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="8">
+         <ZONE_CODE>PLT</ZONE_CODE>
+         <ZONE_NAME>Pakistan Lahore Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+5:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="9">
+         <ZONE_CODE>IST</ZONE_CODE>
+         <ZONE_NAME>India Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+5:30</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="10">
+         <ZONE_CODE>BST</ZONE_CODE>
+         <ZONE_NAME>Bangladesh Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+6:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="11">
+         <ZONE_CODE>VST</ZONE_CODE>
+         <ZONE_NAME>Vietnam Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+7:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="12">
+         <ZONE_CODE>CTT</ZONE_CODE>
+         <ZONE_NAME>China Taiwan Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+8:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="13">
+         <ZONE_CODE>JST</ZONE_CODE>
+         <ZONE_NAME>Japan Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+9:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="14">
+         <ZONE_CODE>ACT</ZONE_CODE>
+         <ZONE_NAME>Australia Central Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+9:30</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="15">
+         <ZONE_CODE>AET</ZONE_CODE>
+         <ZONE_NAME>Australia Eastern Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+10:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="16">
+         <ZONE_CODE>SST</ZONE_CODE>
+         <ZONE_NAME>Solomon Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+11:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="17">
+         <ZONE_CODE>NST</ZONE_CODE>
+         <ZONE_NAME>New Zealand Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT+12:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="18">
+         <ZONE_CODE>MIT</ZONE_CODE>
+         <ZONE_NAME>Midway Islands Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-11:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="19">
+         <ZONE_CODE>HST</ZONE_CODE>
+         <ZONE_NAME>Hawaii Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-10:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="20">
+         <ZONE_CODE>AST</ZONE_CODE>
+         <ZONE_NAME>Alaska Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-9:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="21">
+         <ZONE_CODE>PST</ZONE_CODE>
+         <ZONE_NAME>Pacific Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-8:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="22">
+         <ZONE_CODE>PNT</ZONE_CODE>
+         <ZONE_NAME>Phoenix Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-7:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="23">
+         <ZONE_CODE>MST</ZONE_CODE>
+         <ZONE_NAME>Mountain Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-7:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="24">
+         <ZONE_CODE>CST</ZONE_CODE>
+         <ZONE_NAME>Central Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-6:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="25">
+         <ZONE_CODE>EST</ZONE_CODE>
+         <ZONE_NAME>Eastern Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-5:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="26">
+         <ZONE_CODE>IET</ZONE_CODE>
+         <ZONE_NAME>Indiana Eastern Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-5:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="27">
+         <ZONE_CODE>PRT</ZONE_CODE>
+         <ZONE_NAME>Puerto Rico and US Virgin Islands Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-4:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="28">
+         <ZONE_CODE>CNT</ZONE_CODE>
+         <ZONE_NAME>Canada Newfoundland Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-3:30</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="29">
+         <ZONE_CODE>AGT</ZONE_CODE>
+         <ZONE_NAME>Argentina Standard Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-3:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="30">
+         <ZONE_CODE>BET</ZONE_CODE>
+         <ZONE_NAME>Brazil Eastern Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-3:00</GMT_RELATIVENESS>
+      </ROW>
+      <ROW num="31">
+         <ZONE_CODE>CAT</ZONE_CODE>
+         <ZONE_NAME>Central African Time</ZONE_NAME>
+         <GMT_RELATIVENESS>GMT-1:00</GMT_RELATIVENESS>
+      </ROW>
+   </ROWSET>
+</DOCUMENT>

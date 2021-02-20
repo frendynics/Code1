@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClsHotKeyConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbHeaderSection</ControlName>
+    <ControlDisplayName>Header Tab</ControlDisplayName>
+    <HotKey>HS</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbItemSummary</ControlName>
+    <ControlDisplayName>Item Summary</ControlDisplayName>
+    <HotKey>SI</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbFormulaSection</ControlName>
+    <ControlDisplayName>Transaction Formula</ControlDisplayName>
+    <HotKey>TF</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbSplitBatch</ControlName>
+    <ControlDisplayName>Split Batch</ControlDisplayName>
+    <HotKey>SB</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbTransPayment</ControlName>
+    <ControlDisplayName>Payment</ControlDisplayName>
+    <HotKey>PA</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbEditTransaction</ControlName>
+    <ControlDisplayName>Saved Trasaction</ControlDisplayName>
+    <HotKey>ET</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbItemSection</ControlName>
+    <ControlDisplayName>Item Section</ControlDisplayName>
+    <HotKey>IT</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbBomSection</ControlName>
+    <ControlDisplayName>Bom Section</ControlDisplayName>
+    <HotKey>IB</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbCopyRefMode</ControlName>
+    <ControlDisplayName>Copy From Ref</ControlDisplayName>
+    <HotKey>REF</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbCopyStockMode</ControlName>
+    <ControlDisplayName>Copy From Stock</ControlDisplayName>
+    <HotKey>STK</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransaction</ModuleName>
+    <ModuleDisplayName>TRANSACTION</ModuleDisplayName>
+    <ControlName>tbEditDelete</ControlName>
+    <ControlDisplayName>Edit/Delete</ControlDisplayName>
+    <HotKey>ED</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>grdTrans</ControlName>
+    <ControlDisplayName>Item Grid</ControlDisplayName>
+    <HotKey>G</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>grdMisc</ControlName>
+    <ControlDisplayName>Batch Grid for Bunch</ControlDisplayName>
+    <HotKey>MS</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>grdMiscDtl</ControlName>
+    <ControlDisplayName>Misc Grd</ControlDisplayName>
+    <HotKey>MSD</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>grdBatchDtl</ControlName>
+    <ControlDisplayName>Batch Grid</ControlDisplayName>
+    <HotKey>BD</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>grdBunch</ControlName>
+    <ControlDisplayName>Bunch Grid</ControlDisplayName>
+    <HotKey>BUN</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>grdRefTrans</ControlName>
+    <ControlDisplayName>Reference Grid</ControlDisplayName>
+    <HotKey>RF</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>grdOrder</ControlName>
+    <ControlDisplayName>Order Grid</ControlDisplayName>
+    <HotKey>ORD</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>cmdBatchMaking</ControlName>
+    <ControlDisplayName>Generate Batch</ControlDisplayName>
+    <HotKey>GB</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSection</ModuleName>
+    <ModuleDisplayName>ITEM SECTION</ModuleDisplayName>
+    <ControlName>cmdAutoBunch</ControlName>
+    <ControlDisplayName>Auto Bunch</ControlDisplayName>
+    <HotKey>AB</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsBOM</ModuleName>
+    <ModuleDisplayName>BOM SECTION</ModuleDisplayName>
+    <ControlName>grdBom</ControlName>
+    <ControlDisplayName>Bom Grid</ControlDisplayName>
+    <HotKey>G</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsBOM</ModuleName>
+    <ModuleDisplayName>BOM SECTION</ModuleDisplayName>
+    <ControlName>btnNext</ControlName>
+    <ControlDisplayName>Next Bom</ControlDisplayName>
+    <HotKey>N</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsBOM</ModuleName>
+    <ModuleDisplayName>BOM SECTION</ModuleDisplayName>
+    <ControlName>btnPrevious</ControlName>
+    <ControlDisplayName>Previous Bom</ControlDisplayName>
+    <HotKey>P</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsBOM</ModuleName>
+    <ModuleDisplayName>BOM SECTION</ModuleDisplayName>
+    <ControlName>cmbTransItem</ControlName>
+    <ControlDisplayName>Trans Item List</ControlDisplayName>
+    <HotKey>TI</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsBOM</ModuleName>
+    <ModuleDisplayName>BOM SECTION</ModuleDisplayName>
+    <ControlName>cmdMiscSelectAll</ControlName>
+    <ControlDisplayName>Select All</ControlDisplayName>
+    <HotKey>A</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsBOM</ModuleName>
+    <ModuleDisplayName>BOM SECTION</ModuleDisplayName>
+    <ControlName>cmdMiscDeSelectAll</ControlName>
+    <ControlDisplayName>De Select All</ControlDisplayName>
+    <HotKey>Z</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsBOM</ModuleName>
+    <ModuleDisplayName>BOM SECTION</ModuleDisplayName>
+    <ControlName>cmdMiscApplyChanges</ControlName>
+    <ControlDisplayName>Apply Changes</ControlDisplayName>
+    <HotKey>U</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSectionEditDelete</ModuleName>
+    <ModuleDisplayName>Edit / Delete Section</ModuleDisplayName>
+    <ControlName>grdEdit</ControlName>
+    <ControlDisplayName>Edit Grid</ControlDisplayName>
+    <HotKey>G</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSectionEditDelete</ModuleName>
+    <ModuleDisplayName>Edit / Delete Section</ModuleDisplayName>
+    <ControlName>cmdSelectAll</ControlName>
+    <ControlDisplayName>Select All</ControlDisplayName>
+    <HotKey>A</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSectionEditDelete</ModuleName>
+    <ModuleDisplayName>Edit / Delete Section</ModuleDisplayName>
+    <ControlName>cmdDeSelectAll</ControlName>
+    <ControlDisplayName>DeSelect All</ControlDisplayName>
+    <HotKey>Z</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSectionEditDelete</ModuleName>
+    <ModuleDisplayName>Edit / Delete Section</ModuleDisplayName>
+    <ControlName>cmdEdit</ControlName>
+    <ControlDisplayName>Edit</ControlDisplayName>
+    <HotKey>E</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransItemSectionEditDelete</ModuleName>
+    <ModuleDisplayName>Edit / Delete Section</ModuleDisplayName>
+    <ControlName>cmdDelete</ControlName>
+    <ControlDisplayName>Delete</ControlDisplayName>
+    <HotKey>D</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransPayment</ModuleName>
+    <ModuleDisplayName>Transaction Payment</ModuleDisplayName>
+    <ControlName>grdGiftVoucher</ControlName>
+    <ControlDisplayName>Gift Voucher Grid</ControlDisplayName>
+    <HotKey>G</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransPayment</ModuleName>
+    <ModuleDisplayName>Transaction Payment</ModuleDisplayName>
+    <ControlName>grdRecPayHdr</ControlName>
+    <ControlDisplayName>Payment Grid</ControlDisplayName>
+    <HotKey>P</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransPayment</ModuleName>
+    <ModuleDisplayName>Transaction Payment</ModuleDisplayName>
+    <ControlName>grdKnockOff</ControlName>
+    <ControlDisplayName>Bill KonckOff</ControlDisplayName>
+    <HotKey>B</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsTransPayment</ModuleName>
+    <ModuleDisplayName>Transaction Payment</ModuleDisplayName>
+    <ControlName>txtGiftVoucher</ControlName>
+    <ControlDisplayName>Gift Voucher Scan</ControlDisplayName>
+    <HotKey>V</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsLOV</ModuleName>
+    <ModuleDisplayName>LookUp</ModuleDisplayName>
+    <ControlName>CmdSelectAll</ControlName>
+    <ControlDisplayName>Select All</ControlDisplayName>
+    <HotKey>A</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsLOV</ModuleName>
+    <ModuleDisplayName>LookUp</ModuleDisplayName>
+    <ControlName>CmdDeSelectAll</ControlName>
+    <ControlDisplayName>DeSelect All</ControlDisplayName>
+    <HotKey>Z</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsLOV</ModuleName>
+    <ModuleDisplayName>LookUp</ModuleDisplayName>
+    <ControlName>CmdAddToSelection</ControlName>
+    <ControlDisplayName>Add To Selection</ControlDisplayName>
+    <HotKey>S</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsLOV</ModuleName>
+    <ModuleDisplayName>LookUp</ModuleDisplayName>
+    <ControlName>OKButton</ControlName>
+    <ControlDisplayName>Ok Button</ControlDisplayName>
+    <HotKey>O</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsLOV</ModuleName>
+    <ModuleDisplayName>LookUp</ModuleDisplayName>
+    <ControlName>CancelButton</ControlName>
+    <ControlDisplayName>Cancel Button</ControlDisplayName>
+    <HotKey>C</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsLOV</ModuleName>
+    <ModuleDisplayName>LookUp</ModuleDisplayName>
+    <ControlName>objGrd</ControlName>
+    <ControlDisplayName>Grid</ControlDisplayName>
+    <HotKey>G</HotKey>
+  </clsHotKeyConfig>
+  <clsHotKeyConfig>
+    <ModuleName>clsItemSummary</ModuleName>
+    <ModuleDisplayName>Item Summary</ModuleDisplayName>
+    <ControlName>cmdGenerateSummary</ControlName>
+    <ControlDisplayName>Generate Summary</ControlDisplayName>
+    <HotKey>G</HotKey>
+  </clsHotKeyConfig>
+</ArrayOfClsHotKeyConfig>
